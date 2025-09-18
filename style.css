@@ -133,14 +133,18 @@ main {
     gap: 2rem;
 
 } 
+.product{
+    flex: 1 1 calc(25% - 2rem);
+    max-width: 250px;;
+}
 
-.product {
+/*.product {
     border-radius: 0.25rem;
     text-decoration: none;
     font-weight: 400;
     transition: .15s ease;
     overflow: hidden;
-}
+}*/
     
 .product:hover,
 .product:focus{
